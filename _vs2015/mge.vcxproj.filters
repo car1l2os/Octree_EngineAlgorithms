@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MGE Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MGE Source files\mge">
+      <UniqueIdentifier>{5808a1e3-17c6-41a4-bf66-b872468a8c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\behaviours">
+      <UniqueIdentifier>{62606aaf-8ae3-4195-9a83-22a2c9d20af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\core">
+      <UniqueIdentifier>{4394d90a-ffa0-485d-98ea-1e91842edda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\materials">
+      <UniqueIdentifier>{88a48024-4c44-40c0-a658-f27957d6b003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\util">
+      <UniqueIdentifier>{7d824c34-4bb6-43a4-a48a-0d68b7aad6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\octree">
+      <UniqueIdentifier>{0c338eb8-9726-4742-91d2-819104c5aa96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\Excel">
+      <UniqueIdentifier>{732d00c5-c7fd-4916-af1a-cca6753600b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\glm.hpp">
+      <Filter>MGE Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\AbstractBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\AbstractGame.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\AbstractMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Camera.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\ColorMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\util\DebugHud.hpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\GameObject.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\KeysBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Mesh.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Renderer.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\ShaderProgram.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Texture.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\World.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\RotatingBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\TextureMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\MGEDemo.hpp">
+      <Filter>MGE Source files\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\config.hpp">
+      <Filter>MGE Source files\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Light.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="..\src\mge\octree\Collider.hpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\octree\IntersectionRecord.hpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\octree\OBB.hpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\octree\Octree.hpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\octree\AABB.hpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\MovementBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\octree\TestManager.hpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\PathManager.hpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\UTF8Encoder.hpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\XMLWriter.hpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\Chart.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\Chartsheet.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\Drawing.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\SimpleXlsxDef.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\Workbook.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\Worksheet.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Xlsx\XlsxHeaders.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\XLSXColors\clsRGBColorRecord.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\XLSXColors\XLSXColorLib.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ExcelLibrary\Zip\zip.h">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\AbstractBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\AbstractGame.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\AbstractMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Camera.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\ColorMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\util\DebugHud.cpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\GameObject.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\KeysBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Mesh.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Renderer.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\ShaderProgram.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Texture.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\World.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\RotatingBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\TextureMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\MGEDemo.cpp">
+      <Filter>MGE Source files\mge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Light.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\octree\Collider.cpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\octree\IntersectionRecord.cpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\octree\OBB.cpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\octree\Octree.cpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\octree\AABB.cpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\MovementBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\octree\TestManager.cpp">
+      <Filter>MGE Source files\mge\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\PathManager.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Xlsx\Chart.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Xlsx\Chartsheet.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Xlsx\Drawing.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Xlsx\Workbook.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Xlsx\Worksheet.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Xlsx\XlsxHeaders.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\XLSXColors\clsRGBColorRecord.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\XLSXColors\XLSXColorLib.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ExcelLibrary\Zip\zip.cpp">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\src\mge\ExcelLibrary\CMakeLists.txt">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </Text>
+    <Text Include="..\src\mge\ExcelLibrary\Readme.txt">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\mge\ExcelLibrary\Xlsx\mainpage.dox">
+      <Filter>MGE Source files\mge\Excel</Filter>
+    </None>
+  </ItemGroup>
+</Project>
